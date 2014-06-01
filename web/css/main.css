@@ -1,0 +1,36 @@
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+#wrapper{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:50px;
+}
+
+#sidebar{
+    margin:0;
+    padding:0;
+}
+#sidebar span{
+    position:relative;
+    left:-12px;
+    top:18px;
+}
+
+#sidebar p{
+    line-height:1em;
+/*
+    width:200px;
+*/
+    text-align:right;
+}
+
+#sidebar li{
+    height:60px;
+    padding:0;
+    margin-bottom:40px;
+}
+
